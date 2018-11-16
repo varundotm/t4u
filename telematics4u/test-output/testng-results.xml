@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="31" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1197549" started-at="2018-11-14T14:40:11Z" finished-at="2018-11-14T15:00:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1197549" started-at="2018-11-14T14:40:11Z" finished-at="2018-11-14T15:00:09Z">
+      <class name="scripts.Logout">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.Logout@1a1d6a08]" name="setup" is-config="true" duration-ms="10518" started-at="2018-11-14T14:40:11Z" finished-at="2018-11-14T14:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct(java.lang.String, java.lang.String)[pri:0, instance:scripts.Logout@1a1d6a08]" name="test_Home_Page_Appear_Correct" duration-ms="7198" started-at="2018-11-14T14:40:22Z" data-provider="Authenticate" finished-at="2018-11-14T14:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujathat4u]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="4" started-at="2018-11-14T14:40:29Z" finished-at="2018-11-14T14:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Home_Page_Appear_Correct status=SUCCESS method=ValidLogin.test_Home_Page_Appear_Correct(java.lang.String, java.lang.String)[pri:0, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="verifyLoginUser()[pri:1, instance:scripts.Logout@1a1d6a08]" name="verifyLoginUser" duration-ms="711" started-at="2018-11-14T14:40:29Z" finished-at="2018-11-14T14:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUser -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:40:30Z" finished-at="2018-11-14T14:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginUser status=SUCCESS method=Administration.verifyLoginUser()[pri:1, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="navigateMasterOp()[pri:2, instance:scripts.Logout@1a1d6a08]" name="navigateMasterOp" duration-ms="2510" started-at="2018-11-14T14:40:30Z" finished-at="2018-11-14T14:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateMasterOp -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:40:33Z" finished-at="2018-11-14T14:40:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateMasterOp status=SUCCESS method=Administration.navigateMasterOp()[pri:2, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="navigateCustomerInfoADD()[pri:3, instance:scripts.Logout@1a1d6a08]" name="navigateCustomerInfoADD" duration-ms="379" started-at="2018-11-14T14:40:33Z" finished-at="2018-11-14T14:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateCustomerInfoADD -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="1" started-at="2018-11-14T14:40:33Z" finished-at="2018-11-14T14:40:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateCustomerInfoADD status=SUCCESS method=CustomerInfo.navigateCustomerInfoADD()[pri:3, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="20452" started-at="2018-11-14T14:40:33Z" data-provider="Customer" finished-at="2018-11-14T14:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#1, 1st main, 2nd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560094]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560094]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test1@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2018]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[enter customer name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:40:53Z" finished-at="2018-11-14T14:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="23402" started-at="2018-11-14T14:40:53Z" data-provider="Customer" finished-at="2018-11-14T14:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560095]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560095]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test2@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2019]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Duplicate Customer Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:41:17Z" finished-at="2018-11-14T14:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="20871" started-at="2018-11-14T14:41:17Z" data-provider="Customer" finished-at="2018-11-14T14:41:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#1, 1st main, 3nd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[674567465365477667676768767867686876786876876876786767676767]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560096]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[674567465365477667676768767867686876786876876876786767676767]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560096]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test3@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2020]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[There is some invalid data in field, please correct it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:41:38Z" finished-at="2018-11-14T14:41:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="21285" started-at="2018-11-14T14:41:38Z" data-provider="Customer" finished-at="2018-11-14T14:41:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#2, 2nd main, 4rd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[                                                                      ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[                            ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560097]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560097]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test4@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2021]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Select Country]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="21050" started-at="2018-11-14T14:41:59Z" data-provider="Customer" finished-at="2018-11-14T14:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#1, 1st main, 4nd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[                          ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560098]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560098]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test5@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2022]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Select State]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:41:59Z" finished-at="2018-11-14T14:41:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="1" started-at="2018-11-14T14:42:20Z" finished-at="2018-11-14T14:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="20832" started-at="2018-11-14T14:42:20Z" data-provider="Customer" finished-at="2018-11-14T14:42:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#2, 2nd main, 5rd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560099]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560099]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test6@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2023]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Enter City Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:42:41Z" finished-at="2018-11-14T14:42:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="21231" started-at="2018-11-14T14:42:41Z" data-provider="Customer" finished-at="2018-11-14T14:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#1, 1st main, 5nd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[                         ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[                         ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test7@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2024]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Enter Phone No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:43:02Z" finished-at="2018-11-14T14:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="20807" started-at="2018-11-14T14:43:02Z" data-provider="Customer" finished-at="2018-11-14T14:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#2, 2nd main, 7rd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uiu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[uiui]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547605454545455434434]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560101]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547605454545455434434]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560101]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test8@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2025]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[There is some invalid data in field, please correct it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:43:23Z" finished-at="2018-11-14T14:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="20576" started-at="2018-11-14T14:43:23Z" data-provider="Customer" finished-at="2018-11-14T14:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#1, 1st main, 7nd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rrrrrr]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560102]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[rrrrrr]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560102]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test9@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2026]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[There is some invalid data in field, please correct it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08]" name="validateCustomerAdd" duration-ms="20609" started-at="2018-11-14T14:43:43Z" data-provider="Customer" finished-at="2018-11-14T14:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#2, 2nd main, 6rd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560103]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[656560103]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test10@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2027]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Saved Successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAdd -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:43:43Z" finished-at="2018-11-14T14:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:44:04Z" finished-at="2018-11-14T14:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCustomerAdd status=SUCCESS method=CustomerInfo.validateCustomerAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:scripts.Logout@1a1d6a08]" name="addCustomer" duration-ms="20782" started-at="2018-11-14T14:44:04Z" data-provider="onlyonecustomer" finished-at="2018-11-14T14:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#2, 2nd main, 6rd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560094]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[67456746]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test10@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2018]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Saved Successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:44:25Z" finished-at="2018-11-14T14:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCustomer status=SUCCESS method=CustomerInfo.addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="updateCus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:scripts.Logout@1a1d6a08]" name="updateCus" duration-ms="152483" started-at="2018-11-14T14:44:25Z" data-provider="onlyonecustomer" finished-at="2018-11-14T14:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automate10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#2, 2nd main, 6rd street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[560094]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[67456746536547]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[67456746]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test10@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://www.example.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[05-12-2018]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Saved Successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCus -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="1" started-at="2018-11-14T14:46:57Z" finished-at="2018-11-14T14:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateCus status=SUCCESS method=CustomerInfo.updateCus(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="deleteNoBtn()[pri:7, instance:scripts.Logout@1a1d6a08]" name="deleteNoBtn" duration-ms="10663" started-at="2018-11-14T14:46:57Z" depends-on-methods="scripts.CustomerInfo.updateCus" finished-at="2018-11-14T14:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoBtn -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:47:08Z" finished-at="2018-11-14T14:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteNoBtn status=SUCCESS method=CustomerInfo.deleteNoBtn()[pri:7, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="deleteYesBtn()[pri:8, instance:scripts.Logout@1a1d6a08]" name="deleteYesBtn" duration-ms="50630" started-at="2018-11-14T14:47:08Z" depends-on-methods="scripts.CustomerInfo.deleteNoBtn" finished-at="2018-11-14T14:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteYesBtn -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:47:59Z" finished-at="2018-11-14T14:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteYesBtn status=SUCCESS method=CustomerInfo.deleteYesBtn()[pri:8, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="navigateToPF()[pri:9, instance:scripts.Logout@1a1d6a08]" name="navigateToPF" duration-ms="30418" started-at="2018-11-14T14:47:59Z" finished-at="2018-11-14T14:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPF -->
+        <test-method status="PASS" signature="productFeatureCheck()[pri:10, instance:scripts.Logout@1a1d6a08]" name="productFeatureCheck" duration-ms="96186" started-at="2018-11-14T14:48:29Z" finished-at="2018-11-14T14:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productFeatureCheck -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:48:29Z" finished-at="2018-11-14T14:48:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToPF status=SUCCESS method=CustomerInfo.navigateToPF()[pri:9, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:50:05Z" finished-at="2018-11-14T14:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productFeatureCheck status=SUCCESS method=CustomerInfo.productFeatureCheck()[pri:10, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="navigateToCustomization()[pri:11, instance:scripts.Logout@1a1d6a08]" name="navigateToCustomization" duration-ms="30374" started-at="2018-11-14T14:50:05Z" finished-at="2018-11-14T14:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCustomization -->
+        <test-method status="FAIL" signature="customizationSet()[pri:12, instance:scripts.Logout@1a1d6a08]" name="customizationSet" duration-ms="46380" started-at="2018-11-14T14:50:36Z" finished-at="2018-11-14T14:51:22Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button id="ext-gen88" class=" x-btn-text savebutton" type="button"> is not clickable at point (1150.800048828125,403) because another element <div id="ext-gen281" class="ext-el-mask"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'T4UBLRLPUSR093', ip: '10.1.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13024, moz:profile: C:\Users\CGN04\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c44551cb-c520-4fe0-8c6f-4b24033e9f27]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button id="ext-gen88" class=" x-btn-text savebutton" type="button"> is not clickable at point (1150.800048828125,403) because another element <div id="ext-gen281" class="ext-el-mask"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'T4UBLRLPUSR093', ip: '10.1.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13024, moz:profile: C:\Users\CGN04\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c44551cb-c520-4fe0-8c6f-4b24033e9f27
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at generic.MainActivity.clickdisplayedBtn(MainActivity.java:175)
+at pages.MasOperPage.cus_essen_save(MasOperPage.java:550)
+at scripts.CustomerInfo.customizationSet(CustomerInfo.java:238)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customizationSet -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:50:36Z" finished-at="2018-11-14T14:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToCustomization status=SUCCESS method=CustomerInfo.navigateToCustomization()[pri:11, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="56" started-at="2018-11-14T14:51:22Z" finished-at="2018-11-14T14:51:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customizationSet status=FAILURE method=CustomerInfo.customizationSet()[pri:12, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="userMange(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:scripts.Logout@1a1d6a08]" name="userMange" duration-ms="89843" started-at="2018-11-14T14:51:22Z" data-provider="user" finished-at="2018-11-14T14:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tillu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[merchant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tillu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sand]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8888877767676767]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[009090900]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[536547878]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[tillu@mailinator.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userMange -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:52:52Z" finished-at="2018-11-14T14:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userMange status=SUCCESS method=CustomerInfo.userMange(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="updateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:scripts.Logout@1a1d6a08]" name="updateUser" duration-ms="49518" started-at="2018-11-14T14:52:52Z" data-provider="user" finished-at="2018-11-14T14:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tillu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[merchant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tillu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sand]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8888877767676767]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[009090900]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[536547878]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[tillu@mailinator.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:53:41Z" finished-at="2018-11-14T14:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateUser status=SUCCESS method=CustomerInfo.updateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="userGroupAssociation()[pri:15, instance:scripts.Logout@1a1d6a08]" name="userGroupAssociation" duration-ms="72014" started-at="2018-11-14T14:53:41Z" finished-at="2018-11-14T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userGroupAssociation -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:54:53Z" finished-at="2018-11-14T14:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userGroupAssociation status=SUCCESS method=CustomerInfo.userGroupAssociation()[pri:15, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="defaultAssetGroupModify()[pri:16, instance:scripts.Logout@1a1d6a08]" name="defaultAssetGroupModify" duration-ms="71238" started-at="2018-11-14T14:54:53Z" finished-at="2018-11-14T14:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultAssetGroupModify -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="1" started-at="2018-11-14T14:56:05Z" finished-at="2018-11-14T14:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=defaultAssetGroupModify status=SUCCESS method=CustomerInfo.defaultAssetGroupModify()[pri:16, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="validateAssetGroupAlreadyExist()[pri:17, instance:scripts.Logout@1a1d6a08]" name="validateAssetGroupAlreadyExist" duration-ms="16015" started-at="2018-11-14T14:56:05Z" finished-at="2018-11-14T14:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAssetGroupAlreadyExist -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:56:21Z" finished-at="2018-11-14T14:56:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAssetGroupAlreadyExist status=SUCCESS method=CustomerInfo.validateAssetGroupAlreadyExist()[pri:17, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="addAssertGroup(java.lang.String, java.lang.String, java.lang.String)[pri:18, instance:scripts.Logout@1a1d6a08]" name="addAssertGroup" duration-ms="28929" started-at="2018-11-14T14:56:21Z" data-provider="assetGroup" finished-at="2018-11-14T14:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asset Group 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karnata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bangalor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAssertGroup -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T14:56:50Z" finished-at="2018-11-14T14:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAssertGroup status=SUCCESS method=CustomerInfo.addAssertGroup(java.lang.String, java.lang.String, java.lang.String)[pri:18, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="updateGroup(java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:scripts.Logout@1a1d6a08]" name="updateGroup" duration-ms="138657" started-at="2018-11-14T14:56:50Z" data-provider="assetGroup" finished-at="2018-11-14T14:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asset Group 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karnata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bangalor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGroup -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="1" started-at="2018-11-14T14:59:08Z" finished-at="2018-11-14T14:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateGroup status=SUCCESS method=CustomerInfo.updateGroup(java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="assertGrpFeature()[pri:20, instance:scripts.Logout@1a1d6a08]" name="assertGrpFeature" duration-ms="51825" started-at="2018-11-14T14:59:08Z" finished-at="2018-11-14T15:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertGrpFeature -->
+        <test-method status="PASS" signature="logout()[pri:21, instance:scripts.Logout@1a1d6a08]" name="logout" duration-ms="6350" started-at="2018-11-14T15:00:00Z" finished-at="2018-11-14T15:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="0" started-at="2018-11-14T15:00:00Z" finished-at="2018-11-14T15:00:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assertGrpFeature status=SUCCESS method=CustomerInfo.assertGrpFeature()[pri:20, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="failScreenShot(org.testng.ITestResult)[pri:0, instance:scripts.Logout@1a1d6a08]" name="failScreenShot" is-config="true" duration-ms="1" started-at="2018-11-14T15:00:06Z" finished-at="2018-11-14T15:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=Logout.logout()[pri:21, instance:scripts.Logout@1a1d6a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failScreenShot -->
+        <test-method status="PASS" signature="closeCon()[pri:0, instance:scripts.Logout@1a1d6a08]" name="closeCon" is-config="true" duration-ms="2503" started-at="2018-11-14T15:00:06Z" finished-at="2018-11-14T15:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCon -->
+      </class> <!-- scripts.Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
