@@ -34,6 +34,9 @@ public class HomePage {
 	@FindBy(tagName="iframe")
 	public List<WebElement> frames;
 	
+	@FindBy(tagName="iframe")
+	public List<WebElement> frames1;
+	
 	private WebDriver driver;
 	Actions act;
 	
